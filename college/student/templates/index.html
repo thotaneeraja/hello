@@ -1,0 +1,25 @@
+<html>
+<head>
+    <body>
+welcome to python
+<table border="1px">
+    <thread>
+    <th>name</th>
+    <th>rollno</th>
+    <th>address</th>
+    <th>fathername</th>
+    <th>mothername</th>
+    </thread>
+    {% for i in emp %}
+    <tr>
+        <td>{{i.name}}</td>
+        <td>{{i.rollno}}</td>
+        <td>{{i.address}}</td>
+        <td>{{i.fathername}}</td>
+        <td>{{i.mothername}}</td>
+    </tr>
+    {%endfor%}
+</table>
+</body>
+</head>
+</html>
